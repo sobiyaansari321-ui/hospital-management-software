@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login-component {
+  background-image: url("../public/login-banner.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  background-color: white;
+  height: 55%;
+  width: 30%;
+}
+
+.bg-color {
+  background-color: #f1f8ff;
+}
+.activityOverViewParentContainer {
+  height: 50%;
+  width: 30%;
+}
+.activityOverViewContainer1 {
+  background-color: #a4d2ff;
+}
+
+.activityOverViewContainer2 {
+  background-color: #a4ffbd;
+}
+
+.activityOverViewContainer3 {
+  background-color: #fff598;
+}
+
+.activityOverViewContainer4 {
+  background-color: #cca4ff;
+}
+
+.dashboardAppointmentParentContainer {
+  width: 70%;
+}
+
+.educationContentTitle {
+  font-size: 16px;
+}
+
+.educationContentSubTitle {
+  font-size: 10px;
+}
