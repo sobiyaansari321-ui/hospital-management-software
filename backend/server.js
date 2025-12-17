@@ -1,19 +1,30 @@
 import express from "express";
 import dotenv from "dotenv";
-import connectDb from "./util/connectDB.js";
+import ConnectDb from "./utils/connectDB.js";
+import PatientRouter from "./routes/patient-routes.js"
+
 dotenv.config();
-let PORT = process.env.PORT || 8000;
-let DATABASE_URL = process.env.DATABASE_URL;
-let server = express();
+const app = express();
 
-// connecting server to database
-connectDb(DATABASE_URL);
-server.get("/", (req, res) => {
-  res.send("Welcome to backend of Hospital Management Software");
+// this two command use to store data in mongo atlas
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const PORT = process.env.PORT || 3000;
+const DATABASE_URL = process.env.DATABASE_URL;
+
+console.log("ENV PORT:", process.env.PORT);
+
+
+ConnectDb(DATABASE_URL);
+
+app.get("/", (req, res) => {
+    res.send("Welcome to Hospital Management System");
 });
 
-server.listen(PORT, () => {
-  console.log(`server is running at http://localhost:${PORT}`);
-});
+app.use("/api", PatientRouter);
 
-// MVC
+
+app.listen(PORT, () => {
+    console.log(`Welcome to the app listening on port http://localhost:${PORT}`);
+});
