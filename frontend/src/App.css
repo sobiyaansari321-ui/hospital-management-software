@@ -1,0 +1,558 @@
+body{
+    background-color : aliceblue;
+}
+
+.login-page{
+    background-image: url('/LoginImg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.login-box{
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    margin :auto;
+}
+
+button{
+    width: 100%;
+}
+
+.overview-box{
+    height: 320px;
+    width: 30%;
+    background-color: white;
+}
+
+.container1{
+    background-color: #d6e9f8;
+}
+.container2{
+    background-color: #cdffe4;
+}
+.container3{
+    background-color: #f6ffc4;
+}
+.container4{
+    background-color: #fcdbff;
+}
+
+.container1,.container2,.container3,.container4{
+    text-align: center;
+    height: 110px;
+    width: 150px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.table-box{
+    height: 320px;
+    background-color: #fff;
+}
+
+
+.sidenav-box{
+    background-color: white;
+    height: 870px;
+    width: 290px;
+    color: rgb(38, 96, 243);
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.sidenav-btn{
+    width: auto;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.sidenav-li{
+    font-size: 20px;
+    padding: 1px;
+}
+
+.edu-box{
+    height: 345px;
+    width: 25%;
+    background-color: white;
+    margin: 15px;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.edu-con-bn{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+   
+}
+
+.fee-box{
+    height: 349px;
+    width: 25%;
+    background-color: white;
+    margin: 15px;
+}
+
+.fee-btn{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+
+.redtext{
+    color: red;
+}
+
+.greytext{
+    color: gray;
+}
+
+.med-box{
+    height: 345px;
+    width: 43%;
+    background-color: white;
+    margin: 15px;
+}
+
+.med-li{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.patient-box{
+    height: 800px;
+    width: 1500px;
+    margin: auto;
+    background-color: white;
+}
+
+.pp-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.p-info{
+    font-size: 30px;
+}
+
+.search-box{
+    height: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: gray;
+    border-radius: 50px;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.date-box{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: groove;
+    border-color: skyblue;
+    font-size: 20px;
+    color: gray;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+.patients{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.msg , .cross , .info {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.msg {
+    color: white;
+    background-color: rgb(68, 115, 255);
+}
+
+.cross{
+    color: white;
+    background-color: red;
+}
+
+.info {
+    color: white;
+    background-color: rgb(75, 182, 75);
+}
+
+.graph {
+    width: 100px;
+}
+
+.med-li-1::marker {
+  color: #276bff; /* Apne hisaab se color dalna */
+  font-size: 20px; /* optional: circle bada karna ho */
+}
+
+.med-li-2::marker {
+  color: #57ff52; /* Apne hisaab se color dalna */
+  font-size: 20px; /* optional: circle bada karna ho */
+}
+
+.med-li-3::marker {
+  color: #baadfdff; /* Apne hisaab se color dalna */
+  font-size: 20px; /* optional: circle bada karna ho */
+}
+
+.med-li-4::marker {
+  color: #fff94f; /* Apne hisaab se color dalna */
+  font-size: 20px; /* optional: circle bada karna ho */
+}
+.med-li{
+    size: 40px;
+}
+
+.search{
+    border-style:groove;
+    border-color: black;
+    border-width: 2px;
+    background-color: aliceblue;
+    border-radius: 20px ;
+    font-size: 20px;
+}
+
+.date{
+    border-style:groove;
+    border-width: 2px;
+    border-color: black;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+
+.p-table{
+    font-size: 22px;
+}
+
+.p-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.app-box{
+    height: 800px;
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.headings{
+    font-size: 30px;
+   padding: 30px;
+   padding-bottom: 10px;
+}
+
+.app-btn{
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.app-table{
+    font-size: 22px;
+}
+
+.app-img{
+     height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.app-cross{
+    color:rgb(66, 183, 229)
+}
+
+.dr-box{
+     height: 800px;
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.dr-img{
+    height: 60px;
+    width: 60px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+}
+
+.dr-search{
+    height: 60px;
+    font-size: 20px;
+}
+
+.dr-table{
+    font-size: 22px;
+}
+
+.dr-profile{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    margin-right:10px
+}
+
+.edit{
+    color:white;
+    background-color: rgb(115, 172, 115);
+}
+
+.dr-btn{
+    height: 60px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pp-btn{
+    border-radius: 10px;
+}
+
+.medicine-box{
+    height: 800px;
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.medicine-btn{
+    height: 60px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.medicine-search-box{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    border-style:groove;
+    border-width:0px;
+    border-radius:15px;
+    background-color:aliceblue
+}
+
+.drpdn-btn-1 , .drpdn-btn-2 , .drpdn-btn-3 {
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(211, 202, 202);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.search-product{
+    background-color: aliceblue;
+    border-style:none;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.messege-page-box-1 {
+    height: 800px;
+    width: 500px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.messege-page-box-2{
+    height: 800px;
+    width: 1000px;
+    background-color: white;
+}
+
+.msg-search{
+    width: 90%;
+    margin: 24px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.msg-pg-profile{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.header{
+    background-color: rgb(88, 158, 255);
+    height: 120px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.chat-msg-1 , .chat-msg-2 , .chat-msg-1-1 {
+    height: 80px;
+    width: 500px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5%;
+    margin-bottom: 1px;
+}
+
+.chat-msg-1 ,  .chat-msg-1-1 {
+    margin-left: 2%;
+    box-shadow: large;
+    background-color: rgb(193, 193, 255);
+}
+
+.chat-msg-2 {
+    margin-left: 63%;
+    background-color: rgb(195, 221, 244);
+}
+
+.time{
+    font-size: 20px;
+}
+
+.chat-msg-2 {
+    width: 350px;
+}
+
+.chat-msg-1-1 {
+    width: 115px;
+    margin-bottom: 169px;
+}
+
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(88, 158, 255);
+    color:white
+}
+
+.chat-msg-typing{
+    height: 70px;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 30px;
+    border-style: none;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.send-btn{
+    border-radius: 50%;
+}
+
+.sett-box{
+    height: 800px;
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.sett-h{
+    font-size: 35px;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 30px
+}
+
+.sett-1-2{
+    height: 100px;
+    width: 48%;
+    border-style: none;
+    margin: auto;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.sett1{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.sett1-content{
+    font-size: 23px;
+    text-align: center;
+    color: gray;
+}
+
+.sett2-content{
+    font-size: 23px;
+    text-align: center;
+    color: gray;
+}
+
+/* form */
+
+.full-screen-form-appearance{
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  font-size: larger;
+}
+
+
+.final-new-patient-form{
+    background: #fff;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.top-right-corner-cross{
+    height: 40px;
+    width: 50px;
+    padding: 5px;
+}
