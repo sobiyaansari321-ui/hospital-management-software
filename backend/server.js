@@ -1,9 +1,10 @@
 import express from 'express'
-import dotenv from 'dotenv'
+import dotenv from 'dotenv' 
 dotenv.config();
 
 import connectDB from './connectDB.js'
-import { getAllPatients } from './controllers/patient-controller.js';
+import { AddPatients, DeletePatients, EditPatients, getAllPatients } from './controllers/patient-controller.js';
+import router from './routes/router.js';
 
 const server = express()
 
@@ -15,7 +16,8 @@ connectDB(connection)
 server.get('/', (req, res) => {
   res.send('<h1> Welcome to Backend!</h1>')
 })
-getAllPatients()
+
+server.use('/api', router)
 
 server.listen(port,  () => {
   console.log(`Your server is running at port http://localhost:${port}`)
